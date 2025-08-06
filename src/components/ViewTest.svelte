@@ -14,10 +14,10 @@
 
 <div class="container mx-auto grid grid-cols-7">
 
-    <div class="col-span-4">
-        <CheckThptqg />
+    <!-- <div class="col-span-4"> -->
+        <!-- <CheckThptqg /> -->
         <!-- <PdfViewer url={'./sample-unlocked.pdf'} scale='1.2' showButtons={["navigation", "zoom", "print", "rotate", "pageInfo"]}/> -->
-    </div>
+    <!-- </div> -->
 
     <div class="col-span-3 pt-10">
         <FormThptqg />

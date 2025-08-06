@@ -66,8 +66,8 @@
                 <div class="col-span-1"></div>
                 <div class="col-span-2 text-nowrap text-[14px] h-[18px]">Câu {first}</div>
                 <div class="col-span-1 m-0 p-0 h-0 w-0"></div>
-                <div class="col-span-1 text-nowrap font-medium text-[14px] text-center">Đúng</div>
-                <div class="col-span-1 text-nowrap font-medium text-[14px] text-center">Sai</div>
+                <div class="col-span-1 text-nowrap font-medium text-[10px] text-center">Đúng</div>
+                <div class="col-span-1 text-nowrap font-medium text-[10px] text-center">Sai</div>
                 <div class="col-span-1 text-nowrap text-right mr-2">a)</div>
                 <button class="col-span-1 text-nowrap font-medium text-[14px] flex justify-center items-center h-5" on:click={() => {chooseAnswer(1,1,1)}}><Dot selected={first_a == 1}/></button>
                 <button class="col-span-1 text-nowrap font-medium text-[14px] flex justify-center items-center h-5" on:click={() => {chooseAnswer(1,1,0)}}><Dot selected={first_a == 0}/></button>
@@ -90,8 +90,8 @@
             </div>
             <div class="col-span-2 grid grid-cols-2 pt-2">
                 <div class="col-span-2 text-nowrap text-center text-[14px] max-h-[18px]">Câu {second}</div>
-                <div class="col-span-1 text-nowrap font-medium text-[14px] text-center">Đúng</div>
-                <div class="col-span-1 text-nowrap font-medium text-[14px] text-center">Sai</div>
+                <div class="col-span-1 text-nowrap font-medium text-[10px] text-center">Đúng</div>
+                <div class="col-span-1 text-nowrap font-medium text-[10px] text-center">Sai</div>
                 <button class="col-span-1 text-nowrap font-medium text-[14px] flex justify-center items-center h-5" on:click={() => {chooseAnswer(2,1,1)}}><Dot selected={second_a == 1}/></button>
                 <button class="col-span-1 text-nowrap font-medium text-[14px] flex justify-center items-center h-5" on:click={() => {chooseAnswer(2,1,0)}}><Dot selected={second_a == 0}/></button>
                 <input type="hidden" class="a-yn" name={`yn-a-${second}`} value={second_a}>
